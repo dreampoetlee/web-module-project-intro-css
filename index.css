@@ -67,5 +67,35 @@ body {
 }
 
 .nav-cont {
-  border: 3px solid black;
+  margin: 0 10px;
+	padding: 20px;
+	margin-bottom: 20px;
 }
+
+li {
+	display: inline-block;
+	margin: 5px;
+	padding: 25px;	
+}
+
+a {
+	border: 5px solid red;
+	padding: 20px;
+	margin: 20px;
+	border-radius: 10px;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.link-1 {
+	background-color: #FF764E;	
+}
+
+.link-2 {
+	background-color: #5ED3EB;
+}
+
+.link-3 {
+	background-color: #FFCD69;
+}
+
