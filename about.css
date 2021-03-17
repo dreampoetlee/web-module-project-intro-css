@@ -46,26 +46,3 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-size: 20px;
-  font-family: 'Roboto', sans-serif;
-}
-
-.container {
-  border: 3px solid red;
-  width: 85%;
-  margin: 0 auto;
-}
-
-.nav-cont {
-  border: 3px solid black;
-}
