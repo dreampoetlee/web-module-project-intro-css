@@ -67,9 +67,9 @@ body {
 }
 
 .nav-cont {
-  margin: 0 10px;
+	margin: 0 10px;
 	padding: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 li {
@@ -97,5 +97,37 @@ a {
 
 .link-3 {
 	background-color: #FFCD69;
+}
+
+.header-cont {
+	width: 95%;
+	margin: 35px 30px;
+	padding: 5px 25px;
+	display: inline-block;
+}
+
+.img-cont {
+	float: left;
+}
+
+.header_img {
+	width: 225px;
+	border-radius: 50%;
+	padding: 0 3px 0 3px;
+}
+
+.text-cont {
+	border: 2px solid orangered;
+	width: 75%;
+	position: relative;
+	float: right;
+	text-align: center;
+	line-height: 2;
+	padding: 20px 0 10px 0;
+	margin: 20px 0 10px 0;
+}
+
+h1 {
+	
 }
 
