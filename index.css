@@ -1,0 +1,182 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.nav-cont {
+	margin: 0 10px;
+	padding: 20px;
+	margin-bottom: 10px;
+}
+
+li {
+	display: inline-block;
+	margin: 5px;
+	padding: 25px;	
+}
+
+a {
+	padding: 20px;
+	margin: 40px;
+	border-radius: 10px;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.link-1 {
+	background-color: #FF764E;	
+}
+
+.link-2 {
+	background-color: #5ED3EB;
+}
+
+.link-3 {
+	background-color: #FFCD69;
+}
+
+.header-cont {
+	width: 95%;
+	margin: 35px 30px;
+	padding: 5px 25px;
+	display: inline-block;
+}
+
+.img-cont {
+	float: left;
+}
+
+.header_img {
+	width: 225px;
+	border-radius: 50%;
+	padding: 0 3px 0 3px;
+}
+
+.text-cont {
+	width: 75%;
+	position: relative;
+	float: right;
+	text-align: center;
+	line-height: 2;
+	padding: 10px 0 10px 0;
+	margin: 20px 0 10px 0;
+}
+
+h1 {
+	font-family: 'Chelsea Market', cursive;
+	font-size: 50px;
+}
+
+.mid-cont {
+	background-color: #DDB9A3;
+	color: #FFF;
+	margin: 0 auto;
+	width: 90%;
+	padding: 20px;
+	font-size: 17px;
+	text-align: center;
+	line-height: 1.5;
+	margin-top: 50px;
+}
+
+.icon-cont {
+	text-align: center;
+	width: 60%;
+	margin: auto;
+	padding: 15px;
+}
+
+.fire-camper-cont {
+	padding: 5px;
+	margin: 50px;	
+}
+
+.icon-img {
+	width: 45%;
+	margin: auto;
+	padding: 5px;
+}
+
+.favicon {
+	width: 105px;
+	padding: 10px 0 10px 0;
+}
+
+.icon-txt {
+	font-size: 15px;
+	width: 50%;
+	margin: auto;
+	padding: 12px 0 12px 0;	
+}
+
+.bold {
+	font-weight: 900;
+}
+
+.img-foot {
+	width: 100%;
+	height: 17rem;
+}
+
